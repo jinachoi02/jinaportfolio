@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>home</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Nuosu+SIL&family=Source+Sans+Pro:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+	<style>
+		*{
+			box-sizing: border-box;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		body{
+			margin: 0;
+			min-width: 992px;
+		}
+
+		.nav{
+			text-align: center;
+			margin: 45px;
+		}
+
+		.nav a{
+			text-decoration: none;
+			margin-left: 10px;
+			margin-right: 10px;
+			font-size: 18px;
+			color: black;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+
+		.nav a:hover{
+			color: #4a4a4a;
+			border-bottom: solid 2px #5a4a3c;
+		}
+
+		.graybackground{
+			height: 700px;
+			background-color: #ededed;
+			background-position: center center;
+			background-size: cover;
+			
+		}
+
+		.info{
+			margin-left: 50px;
+		    display: inline-block;
+		    vertical-align: middle;
+
+		}
+
+		.info h1{
+			font-size: 18px;
+			color: #5a4a3c;
+			font-family: 'Nuosu SIL', serif;
+		}
+
+		.info h2{
+			font-size: 40px;
+			margin-bottom: 35px;
+			color: #5a4a3c;
+			font-family: 'Nuosu SIL', serif;
+		}
+
+		.info p{
+			font-family: 'Noto Sans KR', sans-serif;
+			color: black;
+			font-size: 18px;
+			border-left: solid 5px #5a4a3c;
+		}
+
+		.graybackground .profile{
+			position: relative;
+			bottom: -175px;
+			left: 800px;
+
+		}
+
+		.graybackground .helper{
+		    height: 100%;
+		    display: inline-block;
+		    vertical-align: middle;
+		}
+
+		h3{
+			margin-top: 150px;
+			margin-bottom: 80px;
+			font-size: 35px;
+			color: #5a4a3c;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-weight: 700;
+			text-align: center;
+		}
+
+		.main-con{
+			width: 715px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+		.product-item{
+			float: left;
+			width: 225px;
+		}
+
+		.product-item img{
+			width: 225px;
+			height: 225px;
+			margin-bottom: 20px;
+		}
+
+		.product-item:not(:nth-child(3n)){
+			margin-right: 20px;
+		}
+
+		.product-con img{ transition: 0.3s; }
+
+		.product-con a:hover img, .product-con a:focus img{
+			  transform: scale(1.2);
+		}
+
+		
+		.more a{
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 16px;
+		    color: black;
+		    padding: 6px 40px;
+		    border: 0px;
+		    border-radius: 30px;
+		    background-color: #ededed;
+		    text-decoration: none;
+		    vertical-align: middle;
+		    text-align: center;
+
+		}
+
+		.more a:hover{
+			background-color: #9aa0a9;
+		}
+
+		.more {
+			text-align: center;
+		}
+
+		.resume-img{
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			margin-bottom: 150px;
+
+		}
+
+
+		.clearfix{
+  			clear: both;
+  		}
+
+  		.contact-background{
+			height: 400px;
+			background-color: #ededed;
+			background-position: center center;
+			background-size: cover;
+			margin-bottom: 70px;
+		}
+		.contact{
+			font-size: 40px;
+			margin-bottom: 35px;
+			color: #5a4a3c;
+			font-family: 'Nuosu SIL', serif;
+			padding-left: 500px;
+			padding-top: 50px;
+		}
+
+
+		h4{
+			margin-left: 1100px;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 18px;
+		}
+
+		.footer{
+			margin-left: 1110px;
+			margin-top:40px;
+			margin-bottom:80px;
+		}
+		.footer a{
+			margin-left:10px;
+			margin-right:10px;
+			text-decoration:none;
+		}
+
+		
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<a href="index.html">HOME</a>
+		<a href="projects.html">PROJECTS</a>
+		<a href="#">RESUME</a>
+		<a href="contact.html">CONTACT</a>
+	</div>
+	<div class="graybackground">
+		<div class="helper"></div><div class="info">
+			<h1>PORTFOLIO</h1>
+			<h2>JINA'S LIBRARY OF WORK</h2>
+	   		<p> &nbsp; 끊임없는 발전과 자기계발을 하는 디자이너 최진아 입니다<p>
+	   	</div>
+	   	<img src="https://i.postimg.cc/x1kZ7HtK/profile.png" width="20%" class="profile">
+	</div>
+	
+	<div class="main-con">
+		<h3><i>PROJECTS</i></h3>
+		<div class="product-con">
+			<a href="https://i.postimg.cc/xd2JMMC0/image.jpg" class="product-item">
+				<img src="https://i.postimg.cc/xd2JMMC0/image.jpg" alt="Hover Effect">
+			</a>
+			<a href="https://i.postimg.cc/SRydfdLq/3DMAX.jpg" class="product-item">
+				<img src="https://i.postimg.cc/SRydfdLq/3DMAX.jpg">
+			</a>
+			<a href="https://i.postimg.cc/sxrFPgRk/p5js.jpg" class="product-item">
+				<img src="https://i.postimg.cc/sxrFPgRk/p5js.jpg">
+			</a>
+			<a href="https://i.postimg.cc/nh8m48sv/image.jpg" class="product-item">
+				<img src="https://i.postimg.cc/nh8m48sv/image.jpg">
+			</a>
+			<a href="https://i.postimg.cc/JhFX7KDh/p5js3.jpg" class="product-item">
+				<img src="https://i.postimg.cc/JhFX7KDh/p5js3.jpg">
+			</a>
+			<a href="https://i.postimg.cc/htjLsFcv/p5js2.jpg" class="product-item">
+				<img src="https://i.postimg.cc/htjLsFcv/p5js2.jpg">
+			</a>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="more"><a href="projects.html">More →</a></div>
+	<h3><i>RESUME</i></h3>
+	<a href="#"><img src="https://i.postimg.cc/VNzgbzFV/image.png" width="20%" class="resume-img"></a>
+
+	<div class="contact-background">
+		<div class="info2">
+			<div class="contact">CONTACT</div>
+			<div class="contact-info">
+				<h4>Jina Choi<br><br>
+				Phone: 010-9401-4852<br><br>
+				dkwlsch@gmail.com</h4>
+	   		</div>
+
+	   		<div class="footer">
+				<a href="http://facebook.com">
+				<img src="https://cdn-icons-png.flaticon.com/512/20/20837.png" height="20">
+				</a>
+				<a href="http://instagram.com">
+				<img src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" height="20">
+				</a>
+				<a href="http://twitter.com">
+				<img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" height="20">
+				</a>
+			</div>
+
+		</div>
+	</div>
+
+
+
+	
+</body>
+</html>
+

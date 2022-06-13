@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>projects</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Nuosu+SIL&family=Source+Sans+Pro:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+	<style>
+		*{
+			box-sizing: border-box;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		body{
+			margin: 0;
+			min-width: 992px;
+		}
+
+		.nav{
+			text-align: center;
+			margin: 45px;
+		}
+
+		.nav a{
+			text-decoration: none;
+			margin-left: 10px;
+			margin-right: 10px;
+			font-size: 18px;
+			color: black;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+
+		.nav a:hover{
+			color: #4a4a4a;
+			border-bottom: solid 2px #5a4a3c;
+		}
+
+		h3{
+			margin-top: 150px;
+			margin-bottom: 80px;
+			font-size: 35px;
+			color: #5a4a3c;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-weight: 700;
+			text-align: center;
+		}
+
+		.portfolio-list{
+			max-width: 1200px;
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		ul{
+			font-size: 0;
+		}
+
+		ul li{
+			display: inline-block;
+			vertical-align: top;
+			width: 33.3%;
+		}
+
+		ul li a{
+			display: block;
+			width: auto;
+			text-decoration: none;
+			margin: 5px;
+		}
+
+		ul li a .screen{
+			position: relative;
+			overflow: hidden;
+		}
+
+		ul li a .screen .info{
+			position: absolute;
+			top: 150%;
+			left: 30px;
+			z-index: 2;
+			color: black;
+			font-size: 14px;
+			transition: all .35s;
+			font-family: 'Noto Sans KR', sans-serif;
+		}
+
+
+		ul li a h4{
+			font-size: 24px;
+			text-align: center;
+			padding: 20px;
+			color: black;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+
+
+		ul li a .screen ::after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.05);
+			z-index: 1;
+			opacity: 0;
+			transition: all .35s;
+		}
+
+		ul li a:hover .screen ::after {
+			opacity: 1;
+		}
+
+		ul li a:hover .info{
+			top: 75%;
+		}
+
+		h5{
+			font-size: 18px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<a href="home.html">HOME</a>
+		<a href="projects.html">PROJECTS</a>
+		<a href="#">RESUME</a>
+		<a href="contact.html">CONTACT</a>
+	</div>
+
+	
+	<div class="main-con">
+		<h3><i>PROJECTS</i></h3>
+	</div>
+
+	<div class="portfolio-list">
+		<ul>
+			<li>
+				<a href="https://i.postimg.cc/xd2JMMC0/image.jpg">
+						<div>
+						<h4>2D</h4>
+						</div>
+						<div class="screen">
+						<div class="info"><h5>책 표지 리디자인</h5>
+						책에 나오는 다양한 요소들을 활용하여 일러스트로 제작<br>
+						인디자인을 활용하여 표지, 날개, 책등의 위치 및 비율을 습득</div>
+						<img src="https://i.postimg.cc/xd2JMMC0/image.jpg" width="100%">
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://i.postimg.cc/SRydfdLq/3DMAX.jpg">
+						<div>
+						<h4>3D</h4>
+						</div>
+						<div class="screen">
+						<div class="info"><h5>3D 환경의 공간 제작</h5>
+						3D 맥스를 활용하여 제작
+						가상의 원하는 카페 제작 헤어를 활용하여 지형제작</div>
+						<img src="https://i.postimg.cc/SRydfdLq/3DMAX.jpg" width="100%">
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://editor.p5js.org/dkwlschl/sketches/XF3kf5H3m">
+						<div>
+						<h4>CODING</h4>
+						</div>
+						<div class="screen">
+						<div class="info"><h5>인터랙션 디자인</h5>
+										p5js로 제작<br>
+										클릭 시 눈, 마우스 이동 시 배경, 클릭 드래그 시 물고기</div>
+						<img src="https://i.postimg.cc/sxrFPgRk/p5js.jpg" width="100%">
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://i.postimg.cc/nh8m48sv/image.jpg">
+						<div class="screen">
+						<div class="info"><h5>리플릿 디자인</h5> 여행지 추천을 주제로 제작 일러스트요소 제작</div>
+						<img src="https://i.postimg.cc/nh8m48sv/image.jpg" width="100%">
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://i.postimg.cc/3JVMjnr2/Untitled-1.jpg">
+						<div class="screen">
+						<div class="info"></div>
+						<img src="https://i.postimg.cc/3JVMjnr2/Untitled-1.jpg" width="100%">
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://editor.p5js.org/dkwlschl/sketches/X7_z6j6ol">
+						<div class="screen">
+						<div class="info"><h5>앨범커버 디자인</h5>
+						p5js로 제작(firefox)
+						음파 감지, 재생시간구현</div>
+						<img src="https://i.postimg.cc/JhFX7KDh/p5js3.jpg" width="100%">
+					</div>
+				</a>
+			</li>
+						<li>
+				<a href="file:///C:/Users/sshcj/DOCUME~1/%EC%B9%B4%EC%B9%B4%EC%98%A4~1/book.pdf">
+						<div class="screen">
+						<div class="info"><h5>first design book</h5>다양한 주제를 잡지구성으로 제작</div>
+						<img src="https://i.postimg.cc/52V1zs2j/image.jpg" width="100%">
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://i.postimg.cc/3JVMjnr2/Untitled-1.jpg">
+						<div class="screen">
+						<div class="info"></div>
+						<img src="https://i.postimg.cc/3JVMjnr2/Untitled-1.jpg" width="100%">
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://editor.p5js.org/dkwlschl/sketches/ayiCYtMW4">
+						<div class="screen">
+						<div class="info"><h5>앨범커버 디자인</h5>
+						p5js로 제작(firefox)
+						음파 감지, 재생시간구현,<br>
+					시간에 따라 요소변경</div>
+						<img src="https://i.postimg.cc/KvcDY2nY/p5js2.jpg" width="100%">
+					</div>
+				</a>
+			</li>
+
+		</ul>
+	</div>
+	<h3>Updating…</h3>
+
+</body>
+</html>
